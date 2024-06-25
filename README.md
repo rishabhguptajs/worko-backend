@@ -31,7 +31,7 @@ JWT_SECRET=YOUR_JWT_SECRET
 # API Endpoints
 
 ## 1. Create a user 
-- **URL:** `/worko/users`
+- **URL:** `/worko/user`
 - **Method:** `POST`
 - **Request Body:**
 ```json
@@ -45,15 +45,15 @@ JWT_SECRET=YOUR_JWT_SECRET
 ```
 
 ## 2. Get all users
-- **URL:** `/worko/users`
+- **URL:** `/worko/user`
 - **Method:** `GET`
 
 ## 3. Get a user by ID
-- **URL:** `/worko/users/:id`
+- **URL:** `/worko/user/:id`
 - **Method:** `GET`
 
 ## 4. Update a user by ID
-- **URL:** `/worko/users/:id`
+- **URL:** `/worko/user/:id`
 - **Method:** `PUT`
 - **Request Body:**
 ```json
@@ -67,7 +67,7 @@ JWT_SECRET=YOUR_JWT_SECRET
 ```
 
 ## 5. Delete a user by ID
-- **URL:** `/worko/users/:id`
+- **URL:** `/worko/user/:id`
 - **Method:** `DELETE`
 
 ## 6. Login

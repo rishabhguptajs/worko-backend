@@ -70,6 +70,32 @@ JWT_SECRET=YOUR_JWT_SECRET
 - **URL:** `/worko/users/:id`
 - **Method:** `DELETE`
 
+## 6. Login
+- **URL:** `/worko/auth/login`
+- **Method:** `POST`
+- **Request Body:**
+```json
+{
+    "email": "YOUR_EMAIL",
+    "password": "YOUR_PASSWORD"
+}
+```
+
+## 7. Register
+- **URL:** `/worko/auth/register`
+- **Method:** `POST`
+- **Request Body:**
+```json
+{
+    "email": "YOUR_EMAIL",
+    "password": "YOUR_PASSWORD",
+    "name": "YOUR_NAME",
+    "age": 0,
+    "city": "YOUR_CITY",
+    "zipCode": "12345"
+}
+```
+
 # Testing
 
 To run the tests, run `npm test`. This will run the tests using Jest.

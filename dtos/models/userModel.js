@@ -14,7 +14,6 @@ const userSchema = mongoose.Schema({
     // extra fields
     password: {
         type: String,
-        required: true
     },
     age: {
         type: Number,

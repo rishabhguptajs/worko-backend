@@ -10,6 +10,12 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true
     },
+
+    // extra fields
+    password: {
+        type: String,
+        required: true
+    },
     age: {
         type: Number,
         required: true,
@@ -21,6 +27,13 @@ const userSchema = mongoose.Schema({
     zipCode: {
         type: Number,
         required: true
+    },
+
+    // extra fields
+    role: {
+        type: String,
+        required: true,
+        default: "user"
     },
     isDeleted: {
         type: Boolean,
